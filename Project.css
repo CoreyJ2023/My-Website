@@ -1,0 +1,78 @@
+* { box-sizing: border-box; }
+
+header {text-align: center;}
+	
+h1 {font-size: 3em;
+        padding: 10px;
+        line-height: 150%;
+        color: #000000;}
+        
+h2 { padding: 10px;
+     text-align: center;
+     color: #000000;}
+
+h3 { padding: 10px;
+	 text-align: center;}
+
+
+.category	{font-family: bold;
+		 background-color: #ffffff;
+		 color: #003366;
+		 font-size: 1.1em;
+		 text-shadow: 1px 1px 1px #667;}
+		 		 
+img { border: none; }
+
+
+body	{background-color: #808080;}
+	 
+#wrapper {width: 80%;
+	  margin-right: auto;
+	  margin-left: auto;
+	  min-width: 700px;
+	  max-width: 1024px;
+	  background-color: #808080;
+	  color: #000000;}
+	  
+nav	{font-weight: bold;
+	 font-size: 1.85em;
+	 float: left;
+	 width: 140px;}
+	 
+nav ul { list-style-type: none;
+        padding: 10px;}
+        
+nav a { text-decoration: none;
+       padding: 10px;
+       font-weight: bold; }
+       
+nav a:link { color: #3262A3; }
+nav a:visited { color: #6699FF; }
+nav a:hover { color: #CCCCCC; }
+
+main { margin-left: 180px;
+       padding-right: 20px;
+       padding-bottom: 20px; }
+       
+video {display: block;
+       margin: 0 auto;}
+       
+header, nav, main, footer { display: block;}
+
+table {border: 2px solid #330000; }
+
+cellspacing { border-collapse: collapse; }
+
+td, th { padding: 0.5em;
+	border: 1px solid #330000; }
+	
+label { float: left;
+ 	display: block;
+        text-align: right;
+        padding-right: 1em;
+        }
+       
+ input, textarea { display: block;
+  		  margin-bottom: 1em; }
+  		  
+  #mySubmit {margin-left: 9.5em;}
